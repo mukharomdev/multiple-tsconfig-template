@@ -1,0 +1,25 @@
+{
+  "name": "typelate",
+  "version": "1.0.0",
+  "description": "typelate is tool cli for creating typescript project",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukharomdev/multiple-tsconfig-template.git#main"
+  },
+  "keywords": [
+    "cli",
+    "template",
+    "typescript"
+  ],
+  "author": "mukharomdev <mukharomdev@gmail.com>",
+  "license": "MIT",
+  "types": "./dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/mukharomdev/multiple-tsconfig-template/issues"
+  },
+  "homepage": "https://github.com/mukharomdev/multiple-tsconfig-template/tree/main#readme"
+}

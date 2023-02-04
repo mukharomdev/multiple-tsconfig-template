@@ -7,5 +7,6 @@
   "references": [
     { "path": "./packages/bot" },
     { "path": "./packages/bot2" },
+    { "path": "./packages/cli" },
      ]
 }

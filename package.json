@@ -6,10 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "mukharomdev",
+  "keywords": [
+    "template tsconfig",
+    "multiple tsconfig",
+    "tsconfig"
+  ],
+  "author": "mukharomdev <mukharomdev@gmail.com> (mukharom.vercel.app)",
   "license": "MIT",
   "devDependencies": {
+    "@types/inquirer": "^9.0.3",
     "@types/node": "^18.11.18"
+  },
+  "dependencies": {
+    "inquirer": "^9.1.4"
   }
 }
