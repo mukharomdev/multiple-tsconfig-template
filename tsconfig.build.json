@@ -5,8 +5,8 @@
   "files": [],
   "include": [],
   "references": [
-    { "path": "./packages/bot" },
-    { "path": "./packages/bot2" },
-    { "path": "./packages/cli" },
+    { "path": "./packages/software" },
+    { "path": "./packages/software" },
+    { "path": "./packages/typelate" },
      ]
 }

@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "example template to create multiple tsconfig",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"tsc -p .",
+    "clean":"tsc --build . --clean"
   },
   "keywords": [
     "template tsconfig",
@@ -14,6 +16,7 @@
   "author": "mukharomdev <mukharomdev@gmail.com> (mukharom.vercel.app)",
   "license": "MIT",
   "devDependencies": {
+    "@sindresorhus/tsconfig": "^3.0.1",
     "@types/inquirer": "^9.0.3",
     "@types/node": "^18.11.18"
   },

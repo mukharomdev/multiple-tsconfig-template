@@ -1,9 +1,9 @@
-{
-  "extends": "../../tsconfig.base",
-  "compilerOptions": {
-    "outDir": "./dist",
-    "rootDir": "./src"
-  },
+{   "extends":"@sindesorhus/tsconfig",
+    "compilerOptions": {
+  	"outDir": "dist",
+    "rootDir": "src",
+    "types":["node","inquirer"],
+    },
   "include": ["src/**/*"],
   "exclude": ["**/__tests__"]
 }
