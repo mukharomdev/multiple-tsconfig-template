@@ -1,4 +1,4 @@
-{  "extends":"@sindesorhus/tsconfig",
+{  "extends":"@sindresorhus/tsconfig",
    "compilerOptions": {
     "composite": true,
     }
