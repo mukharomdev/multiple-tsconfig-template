@@ -1,12 +1,16 @@
 {
-  "name": "multiple-tsconfig-template",
+  "name": "typelate",
   "version": "1.0.0",
-  "description": "example template to create multiple tsconfig",
+  "description": "example project",
   "exports": "dist/index.js",
   "type":"module",
   "scripts": {
     "build":"tsc -p .",
+    "test":"node --trace-warnings dist/index.js",
     "clean":"tsc --build . --clean"
+  },
+   "bin": {
+    "typelate": "./bin/typelate.js"
   },
   "keywords": [
     "template tsconfig",
