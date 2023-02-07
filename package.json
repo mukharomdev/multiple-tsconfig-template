@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "example template to create multiple tsconfig",
   "exports": "dist/index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "build":"tsc -p .",
-    "clean":"tsc --build . --clean"
+    "build": "tsc -p .",
+    "clean": "tsc --build . --clean",
+    "buildall":"npx lerna run build"
   },
   "keywords": [
     "template tsconfig",
@@ -18,12 +19,16 @@
   "devDependencies": {
     "@sindresorhus/tsconfig": "^3.0.1",
     "@types/inquirer": "^9.0.3",
-    "@types/node": "^18.11.18"
+    "@types/node": "^18.11.18",
+    "lerna": "^6.4.1"
   },
   "dependencies": {
     "inquirer": "^9.1.4"
   },
-  "engines":{
-    "node":">=14.16"
-  }
+  "engines": {
+    "node": ">=14.16"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
